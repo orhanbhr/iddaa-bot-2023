@@ -1,0 +1,24 @@
+{
+    "name": "orhanbhr/iddaa-bot-2023",
+    "description": "It is PHP-based, allowing you to receive data from iddaa.com.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Orhanbhr\\IddaaBot2023\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Orhan BAHAR",
+            "email": "this@orhanbhr.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Orhanbhr\\IddaaBot2023\\IddaaBot2023ServiceProvider"
+            ]
+        }
+    }
+}
